@@ -384,7 +384,7 @@ img {
     .hero__button:hover {
       transform: scale(1.05); }
   .hero__avatar--img {
-    transform: scale(1.15); }
+    transform: scale(1.5); }
   .hero__avatar {
     overflow: hidden;
     width: 27.78rem;
@@ -393,4 +393,4 @@ img {
     border: 0.9rem solid #ffffff;
     justify-content: center;
     display: flex;
-    align-items: ce; }
+    align-items: center; }
