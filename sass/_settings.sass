@@ -29,5 +29,24 @@ img
     background: $b-gradient
     transition: 0.5s
     border: none
+    position: relative
+    // display: inline-block
+    overflow: hidden
+    &:before 
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 3rem
+        height: 100%
+        background-color: rgba(#fff, 0.6)
+        transform: translateX(-6rem) skewX(-45deg)
     &:hover
-        transform: scale(1.05)
+       &:before 
+        animation: move-light 1s 
+
+@keyframes move-light
+  from 
+    transform: translateX(-6rem) skewX(-45deg)
+  to 
+    transform: translateX(23rem) skewX(-45deg)
