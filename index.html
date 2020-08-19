@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -40,7 +41,7 @@
                 <p class="hero__description">
                     Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
                 </p>
-                <button class="wow animate__animated animate__pulse hero__button button" data-wow-iteration="3">Посмотреть портфолио</button>
+                <button class="hero__button button wow animate__animated animate__pulse " data-wow-iteration="3">Посмотреть портфолио</button>
             </div>
             <!-- /.hero__text -->
             <div class="hero__avatar">
@@ -94,6 +95,119 @@
         <!-- /.contauner -->
     </section>
     <!-- /.feat -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title section__title">
+                Последние проекты
+            </h2>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="portfolio__slide">
+                            <div class="portfolio__img-box">
+                                <img src="./img/portfolio/project-img.png" alt="сайт-1">
+                            </div>
+                            <!-- /.portfolio__img-box -->
+                            <div class="portfolio__description">
+                                <h4 class="portfolio__slider-title">
+                                    Сайт строительной фирмы “Велстрой”
+                                </h4>
+                                <div class="portfolio__items-wrapper">
+                                    <div class="portfolio__item">
+                                        <img src="./img/portfolio/time-icon.svg" alt="время" class="portfolio__icon">
+                                        
+                                        <div class="portfolio__item-wrapper">
+                                            <h5 class="portfolio__subtitle">
+                                                Сроки
+                                            </h5>
+                                            <p class="portfolio__text">
+                                                4 рабочих дня
+                                            </p>
+                                        </div>
+                                        <!-- /.portfolio__item-wrapper -->
+                                    </div>
+                                    <!-- /.portfolio__item -->
+                                    <div class="portfolio__item">
+                                        <img src="./img/portfolio/cost-icon.svg" alt="цена" class="portfolio__icon">
+                                        
+                                        <div class="portfolio__item-wrapper">
+                                            <h5 class="portfolio__subtitle">
+                                                Стоимость
+                                            </h5>
+                                            <p class="portfolio__text">
+                                                14 000 рублей 
+                                            </p>
+                                        </div>
+                                        <!-- /.portfolio__item-wrapper -->
+                                    </div>
+                                    <!-- /.portfolio__item -->
+                                </div>
+                                <!-- /.portolio__items-wrapper -->
+                                <div class="portfolio__item">
+                                    <img src="./img/portfolio/feedback-icon.svg" alt="отзыв" class="portfolio__icon">
+                                    <div class="portfolio__item-wrapper">
+                                        <h5 class="portfolio__subtitle">
+                                            Отзыв клиента
+                                        </h5>
+                                        <p class="portfolio__text">
+                                            Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке
+                                        </p>
+                                    </div>
+                                    <!-- /.portfolio__item-wrapper -->
+                                </div>
+                                <!-- /.portfolio__item -->
+                            </div>
+                            <!-- /.portfolio__description -->
+                        </div>
+                        <!-- /.portfolio__slide -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio__slide">
+                            
+                        </div>
+                        <!-- /.portfolio__slide -->
+                        Slide 2
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio__slide">
+                            
+                        </div>
+                        <!-- /.portfolio__slide -->
+                        Slide 3
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio__slide">
+                            
+                        </div>
+                        <!-- /.portfolio__slide -->
+                        Slide 4
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio__slide">
+                            
+                        </div>
+                        <!-- /.portfolio__slide -->
+                        Slide 5
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio__slide">
+                            
+                        </div>
+                        <!-- /.portfolio__slide -->
+                        Slide 6
+                    </div>
+                </div>
+                
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.portfolio -->
     <footer class="footer">
         <div class="container">
             <h2 class="section-title feat-title">
@@ -158,6 +272,7 @@
     
     <script src="./js/jquery.min.js"></script>
     <script src="./js/wow.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

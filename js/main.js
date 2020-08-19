@@ -2,7 +2,7 @@ $(document).ready(function () {
     //Кнопка прокрутки наверх
     $(window).scroll(function () {
         // Если отступ сверху больше 50px то показываем кнопку "Наверх"
-        if ($(this).scrollTop() > 50) {
+        if ($(this).scrollTop() > 150) {
             $('.button-up').fadeIn();
         } else {
             $('.button-up').fadeOut();
@@ -18,4 +18,15 @@ $(document).ready(function () {
     });
     //wowJS
     new WOW().init();
+    //slider
+    var mySwiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        loop: true,
+        spaceBetween: 30,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
 });
