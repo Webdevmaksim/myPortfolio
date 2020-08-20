@@ -22,11 +22,13 @@ $(document).ready(function () {
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
         loop: true,
-        spaceBetween: 30,
       
         // If we need pagination
         pagination: {
-          el: '.swiper-pagination',
+          el: '.portfolio__pagination',
+          bulletClass: 'portfolio__bullet',
+          bulletActiveClass: 'portfolio__bullet--active',
+          clickable: true,
         },
       });
 });

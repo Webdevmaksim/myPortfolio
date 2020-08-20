@@ -479,24 +479,25 @@ img {
 
 .portfolio {
   padding-top: 9rem;
-  padding-bottom: 7.71rem; }
+  padding-bottom: 7.71rem;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%); }
   .portfolio__items-wrapper {
     display: flex;
     margin-bottom: 3.14rem; }
   .portfolio__description {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    flex-basis: 60%; }
   .portfolio__slider-title {
     margin: 0;
     margin-bottom: 3rem;
     font-size: 1.71rem;
     line-height: 2rem; }
+  .portfolio__icon {
+    margin-right: 1.14rem; }
   .portfolio__item {
     display: flex;
-    align-items: start; }
-    .portfolio__item img {
-      margin-right: 1.14rem; }
+    align-items: flex-start; }
     .portfolio__item:first-child {
       margin-right: 4.57rem; }
   .portfolio__subtitle {
@@ -511,12 +512,13 @@ img {
     font-size: 2.57rem;
     font-weight: bold; }
   .portfolio__slide {
-    min-height: 20rem;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: flex-start; }
   .portfolio__img-box {
-    width: 24.14rem;
-    height: 19.14rem; }
+    max-width: 24.14rem;
+    height: 19.14rem;
+    margin-right: 6.4rem; }
     .portfolio__img-box img {
       border-radius: 6px; }
   .portfolio__text {
@@ -524,23 +526,31 @@ img {
     font-size: 1.14rem;
     max-width: 34.35rem;
     margin: 0; }
+  .portfolio__time {
+    flex-basis: 50%;
+    margin-bottom: 3.14rem; }
+  .portfolio__cost {
+    flex-basis: 50%; }
+  .portfolio__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .portfolio__bullet {
+    width: 0.71rem;
+    height: 0.71rem;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.71rem; }
+    .portfolio__bullet:hover {
+      cursor: pointer; }
+    .portfolio__bullet:last-child {
+      margin-right: 0; }
+    .portfolio__bullet--active {
+      background: #FFBB01; }
 
-.swiper-container {
+.swiper-wrapper {
   margin-bottom: 3.14rem; }
-
-.swiper-pagination {
-  left: 50%; }
-
-.swiper-pagination-bullet {
-  border: 2px solid #FFBB01;
-  width: 0.71rem;
-  height: 0.71rem;
-  margin-right: 0.71rem !important; }
-  .swiper-pagination-bullet:last-child {
-    margin-right: 0 !important; }
-
-.swiper-pagination-bullet-active {
-  background: #FFBB01; }
 
 .footer {
   padding-bottom: 10.71rem;
