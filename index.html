@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- Yandex.Metrika counter --> <script> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(66611101, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/66611101" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
     <main class="main">
         <header class="header container">
             <a href="./index.html" class="header__link"><img src="./img/logo.svg" alt="" class="header__logo"></a>
@@ -41,7 +42,7 @@
                 <p class="hero__description">
                     Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
                 </p>
-                <a href="#portfolio" class="hero__button button wow animate__animated animate__pulse " data-wow-iteration="3">Посмотреть портфолио</a>
+                <a href="#portfolio" onclick="ym('66611101', 'reachGoal', 'portfolio-view'); return true;" class="hero__button button wow animate__animated animate__pulse " data-wow-iteration="3">Посмотреть портфолио</a>
             </div>
             <!-- /.hero__text -->
             <div class="hero__avatar">
@@ -235,17 +236,134 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="portfolio__slide">
-                            
+                            <div class="portfolio__slide">
+
+                                <div class="portfolio__img-box">
+                                    <img src="./img/portfolio/sw.png" alt="Сайт строительной фирмы “Велстрой”">
+                                </div>
+                                <!-- /.portfolio__img-box -->
+                                <div class="portfolio__description">
+                                    <h4 class="portfolio__slider-title">
+                                        Промо Сайт: Войны Звёзд
+                                    </h4>
+    
+                                    
+                                        <div class="portfolio__item portfolio__time">
+                                            <img src="./img/portfolio/time-icon.svg" alt="время" class="portfolio__icon">
+                                            
+                                            <div class="portfolio__item-wrapper">
+    
+                                                <h5 class="portfolio__subtitle">
+                                                    Сроки
+                                                </h5>
+                                                
+                                                <p class="portfolio__text">
+                                                    14 рабочих дней
+                                                </p>
+    
+                                            </div>
+                                            <!-- /.portfolio__item-wrapper -->
+                                        </div>
+                                        <!-- /.portfolio__item -->
+                                        <div class="portfolio__item portfolio__cost">
+                                            <img src="./img/portfolio/cost-icon.svg" alt="цена" class="portfolio__icon">
+                                            
+                                            <div class="portfolio__item-wrapper">
+                                                <h5 class="portfolio__subtitle">
+                                                    Стоимость
+                                                </h5>
+                                                <p class="portfolio__text">
+                                                    За идею 
+                                                </p>
+                                            </div>
+                                            <!-- /.portfolio__item-wrapper -->
+                                        </div>
+                                        <!-- /.portfolio__item -->
+                                    
+                                    <div class="portfolio__item">
+                                        <img src="./img/portfolio/feedback-icon.svg" alt="отзыв" class="portfolio__icon">
+                                        <div class="portfolio__item-wrapper">
+                                            <h5 class="portfolio__subtitle">
+                                                Отзыв клиента
+                                            </h5>
+                                            <p class="portfolio__text">
+                                                Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке
+                                            </p>
+                                        </div>
+                                        <!-- /.portfolio__item-wrapper -->
+                                    </div>
+                                    <!-- /.portfolio__item -->
+                                </div>
+                                <!-- /.portfolio__description -->
+                            </div>
+                            <!-- /.portfolio__slide -->
                         </div>
                         <!-- /.portfolio__slide -->
-                        Slide 3
+                        
                     </div>
                     <div class="swiper-slide">
                         <div class="portfolio__slide">
-                            
+
+                            <div class="portfolio__img-box">
+                                <img src="./img/witcher.png" alt="Сайт строительной фирмы “Велстрой”">
+                            </div>
+                            <!-- /.portfolio__img-box -->
+                            <div class="portfolio__description">
+                                <h4 class="portfolio__slider-title">
+                                    Сайт Сериала Ведьмак
+                                </h4>
+
+                                
+                                    <div class="portfolio__item portfolio__time">
+                                        <img src="./img/portfolio/time-icon.svg" alt="время" class="portfolio__icon">
+                                        
+                                        <div class="portfolio__item-wrapper">
+
+                                            <h5 class="portfolio__subtitle">
+                                                Сроки
+                                            </h5>
+                                            
+                                            <p class="portfolio__text">
+                                                6 дней
+                                            </p>
+
+                                        </div>
+                                        <!-- /.portfolio__item-wrapper -->
+                                    </div>
+                                    <!-- /.portfolio__item -->
+                                    <div class="portfolio__item portfolio__cost">
+                                        <img src="./img/portfolio/cost-icon.svg" alt="цена" class="portfolio__icon">
+                                        
+                                        <div class="portfolio__item-wrapper">
+                                            <h5 class="portfolio__subtitle">
+                                                Стоимость
+                                            </h5>
+                                            <p class="portfolio__text">
+                                                За идею 
+                                            </p>
+                                        </div>
+                                        <!-- /.portfolio__item-wrapper -->
+                                    </div>
+                                    <!-- /.portfolio__item -->
+                                
+                                <div class="portfolio__item">
+                                    <img src="./img/portfolio/feedback-icon.svg" alt="отзыв" class="portfolio__icon">
+                                    <div class="portfolio__item-wrapper">
+                                        <h5 class="portfolio__subtitle">
+                                            Отзыв клиента
+                                        </h5>
+                                        <p class="portfolio__text">
+                                            Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке
+                                        </p>
+                                    </div>
+                                    <!-- /.portfolio__item-wrapper -->
+                                </div>
+                                <!-- /.portfolio__item -->
+                            </div>
+                            <!-- /.portfolio__description -->
                         </div>
                         <!-- /.portfolio__slide -->
-                        Slide 4
+                       
                     </div>
                     <div class="swiper-slide">
                         <div class="portfolio__slide">
@@ -278,11 +396,24 @@
             <!-- /.section-title -->
             <div class="footer__block">
                 
-                <form action="#" class="footer__form form">
+                <form action="./php/send.php" method="POST" class="footer__form form">
                     <h4 class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
-                    <input id="name" type="text" class="form__input input-name" placeholder="Ваше имя">
-                    <input id="phone" type="text" class="form__input input-phone" placeholder="Ваш телефон">
-                    <button class="footer__button button">Бесплатная консультация</button>
+                    <div class="form__input-group">
+                        <input id="user-name"  name="userName" type="text" class="form__input input-name" placeholder="Ваше имя">
+                    </div>
+                    <!-- /.form__input-group -->
+                    <div class="form__input-group">
+                        <input id="user-phone"  name="userPhone" type="tel" class="form__input input-phone" >
+                    </div>
+                    <!-- /.form__input-group -->
+                    <div class="form__input-group">
+                        <button class="footer__button button">Бесплатная консультация</button>
+                    </div>
+                    <!-- /.form__input-group -->
+                    
+                    
+
+                    
                 </form>
                 <!-- /.footer__form -->
                 <div class="footer__text">
@@ -331,10 +462,24 @@
     </footer>
     <!-- /.footer -->
     <div class="button-up"></div>
-    
+    <!-- Button up -->
+    <div class="t-modal">
+        <div class="t-modal__dialog">
+            <span class="t-modal__close">&times;</span>
+            <h3 class="t-modal__header">
+                Спасибо за проявленное внимание!</h3>
+                <!-- /.t-modal__header -->
+            <div class="t-modal__content">
+                <span class="t-modal__please">Вы так же можете написать мне в вк: </span>
+                <a href="https://vk.com/id6696432" target="_blank"><img src="./img/vk.svg" alt="вк"
+                        class="t-modal__vk"></a></div><!-- /.t-modal__content -->
+        </div><!-- /.t-modal__dialog -->
+    </div><!-- /.t-modal -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/wow.min.js"></script>
     <script src="./js/swiper.min.js"></script>
+    <script src="./js/validate.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

@@ -13,6 +13,7 @@
         font-weight: bold
         font-size: 0.85rem
         line-height: 2rem
+        width: 100%
     &__socials-links
         margin-bottom: 5.14rem
 .form
@@ -22,7 +23,14 @@
     padding: 2.85rem 2.5rem 3.57rem
     background: $light
     border-radius: 5px
-    box-shadow: -5px 5px 0px #FFC41D
+    box-shadow: -5px 5px 0px #FFC41D 
+    &__input-group
+        position: relative
+        margin-bottom: 2.5rem
+        display: flex
+        flex-direction: column
+        &:last-child
+            margin-bottom: 0
     &__title
         color: $black
         text-align: center
@@ -39,22 +47,15 @@
         box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25)
         padding: 1.4rem 3.42rem
         position: relative
+        width: 100%
+        text-align: left
         &::placeholder
             color: $l-grey
-        &--name-l
-            position: absolute
-            top: 0
-            left: 0
-            display: block
-            width: 5rem
-            height: 5rem
-            border: 1px solid red
+        
 .input
     &-name
-        margin-bottom: 1.5rem
         background: #f8f8f8 url('../img/footer/user-icon.svg') 1.42rem no-repeat
     &-phone
-        margin-bottom: 1.85rem
         background: #f8f8f8 url('../img/footer/phone-icon.svg') 1.42rem no-repeat
 .contacts
     display: flex
@@ -100,4 +101,13 @@
         font-size: 1.071rem
         line-height: 1.28rem
         color: $grey
+div.invalid
+    color: $warning
+    position: absolute 
+    width: 100%
+    text-align: center
+    top: 4.5rem
+
+    
+    
 

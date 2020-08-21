@@ -1,0 +1,52 @@
+.t-modal
+    opacity: 0
+    visibility: hidden
+    position: fixed
+    z-index: 200
+    left: 0
+    top: 0
+    bottom: 0
+    right: 0
+    width: 100%
+    height: 100%
+    background-color: rgba($black, 0.6)
+    display: flex
+    justify-content: center
+    align-items: center
+    &__content
+        display: flex
+        align-items: center
+        justify-content: center
+    &__please
+        font-size: 1.3rem
+        margin-right: 1rem
+    &__vk
+        width: 2.5rem
+        height: 2.5rem
+    &--visible
+        opacity: 1
+        visibility: visible
+    &__close
+        position: absolute
+        top: 1rem
+        right: 1rem
+        display: inline-block
+        cursor: pointer
+        font-size: 2rem
+        transition: 0.5s
+        outline: none
+        color: $orange
+        &:hover
+            font-size: 2.5rem
+    &__dialog
+        position: relative
+        padding: 2.357rem 3.5rem 1.928rem  
+        background: $black
+        background-size: cover
+        max-width: 36.36rem
+        border: 2px solid $orange
+        border-radius: 0.5rem
+    &__header
+        text-align: center
+        line-height: 2
+        color: $light
