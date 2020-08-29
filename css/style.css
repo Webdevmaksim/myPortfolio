@@ -400,8 +400,19 @@ img {
     margin-right: 1.48rem; }
     .header__social-link:last-child {
       margin-right: 0; }
+  .header__title {
+    color: #FFBB01;
+    font-size: 1.5rem;
+    font-weight: bold; }
+  .header__logo {
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+    margin-right: 1.5rem; }
   .header__link {
-    transition: 0.3s; }
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    text-decoration: none; }
     .header__link:hover {
       transform: scale(1.1); }
 
@@ -557,6 +568,8 @@ img {
 .footer {
   padding-bottom: 10.71rem;
   padding-top: 4.07rem; }
+  .footer__button:hover {
+    cursor: pointer; }
   .footer__block {
     display: flex;
     align-items: center;
