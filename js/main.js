@@ -48,6 +48,10 @@ $(document).ready(function () {
                 required: true,
                 minlength: 18
             },
+            userMail: {
+                required: true,
+                email: true
+            }
           },
         //messages
         messages: {
@@ -59,6 +63,10 @@ $(document).ready(function () {
                 required: "Пожалуйста укажите свой телефон.",
                 minlength: "телефон не короче 9 цифр",
             },
+            userMail: {
+                required: " Пожалуйста введите email",
+                email: "Почта в формате domain@mail.com",
+            }
           },
           submitHandler: function(form) {
             $.ajax({

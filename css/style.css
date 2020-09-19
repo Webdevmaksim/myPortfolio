@@ -633,6 +633,11 @@ img {
 .input-phone {
   background: #f8f8f8 url("../img/footer/phone-icon.svg") 1.42rem no-repeat; }
 
+.input-mail {
+  background: url("../img/footer/mail-icon.svg") 1.42rem no-repeat;
+  background-size: 1.4rem;
+  background-color: #f8f8f8; }
+
 .contacts {
   display: flex;
   flex-wrap: wrap;
