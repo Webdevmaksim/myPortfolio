@@ -400,6 +400,9 @@ img {
     margin-right: 1.48rem; }
     .header__social-link:last-child {
       margin-right: 0; }
+    .header__social-link img {
+      width: 2rem;
+      height: 2rem; }
   .header__title {
     color: #FFBB01;
     font-size: 1.5rem;
