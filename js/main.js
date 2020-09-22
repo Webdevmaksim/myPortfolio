@@ -74,7 +74,6 @@ $(document).ready(function () {
                 url: "../php/send.php",
                 data: $(form).serialize(),
                 success: function (response) {
-                   
                     tModal.toggleClass('t-modal--visible');
                     $(form)[0].reset();
                     ym('66611101', 'reachGoal', 'form-submit'); return true;

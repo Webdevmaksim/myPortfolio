@@ -531,8 +531,25 @@ img {
   .portfolio__img-box {
     max-width: 24.14rem;
     height: 19.14rem;
-    margin-right: 6.4rem; }
-    .portfolio__img-box img {
+    margin-right: 6.4rem;
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column; }
+  .portfolio__link {
+    text-decoration: none;
+    color: #2E2E30;
+    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+    max-width: 50%;
+    border: none;
+    padding: 0.7rem 0.4rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+    display: block;
+    transition: all 0.3s;
+    font-size: 1.2rem; }
+    .portfolio__link:hover {
+      transform: translateX(8%); }
+    .portfolio__link img {
       border-radius: 6px; }
   .portfolio__text {
     line-height: 2rem;
@@ -811,6 +828,8 @@ div.invalid {
   .portfolio {
     padding-top: 3.8rem;
     padding-bottom: 4rem; }
+    .portfolio__link:hover {
+      transform: translateX(0%); }
     .portfolio__img-box {
       margin-right: 0; }
     .portfolio__time {
