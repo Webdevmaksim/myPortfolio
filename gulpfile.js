@@ -11,7 +11,7 @@ const htmlmin = require('gulp-htmlmin');
 function bs() {
     minсss();
     compress();
-    // minify_h();
+    minify_h();
     serveSass();
     browserSync.init({
         server: {
